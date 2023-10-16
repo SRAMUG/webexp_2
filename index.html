@@ -1,0 +1,64 @@
+<!dOCTYPE html> 
+<html> 
+<head> 
+    <link rel="stylesheet" href="exp2.css"> 
+     
+</head> 
+<body> 
+    <div class="banner"> 
+        <div class="navbar"> 
+                <ul> 
+                    <li><a href="#home">Home</a></li> 
+                    <li><a href="#New arrivals">New Arrivals</a></li> 
+                    <li><a href="#Shop">Shop</a></li> 
+                    <li><a href="#Contacts">Contacts</a></li> 
+                    <li><a href="fashionreg.html">Register</a></li> 
+                    <li><a href="faslog.html">Login</a></li> 
+                </ul> 
+        </div> 
+        <form> 
+            <div class="user"> 
+                <h2>Sign in</h2> 
+                <div class="usr"> 
+                    Firstname<br> 
+                    <input type="text" id="FirstName"><br><br> 
+                    E-Mail<br> 
+                    <input type="email" id="E-Mail"><br><br> 
+                    Phone Number<br> 
+                    <input type="text" id="Mobile number"><br><br> 
+                    Username<br> 
+                    <input type="text" id="Username"><br><br> 
+                    Password<br> 
+                    <input type="text" id="password"><br><br> 
+                    <div class="submtbtn"> 
+                    <input type="submit" name="Submit" value="Enter"> 
+                </div> 
+            </div> 
+        </div> 
+    </form> 
+</div> 
+</body> 
+</html> 
+ 
+CSS CODE: 
+*{     margin: 0;     padding: 0;     box-sizing: border-box; 
+} 
+ 
+.banner {     width: 100vw;     height: 100vh;     background-image: url(fav.jpg);     background-image: fixed;     background-size: cover;     background-position: center;     box-sizing: border-box;     position: relative;     color: #fff; }    
+.navbar{     overflow:hidden;  } 
+.navbar a{ 
+    float: left; 
+    font-size: 30px;     color:blue;     text-align: center;     text-decoration: none; } ul{     list-style-type: none;     margin: 0;     padding: 0;     overflow: hidden; } li a{ 
+   display: block;    padding: 30px  30px;    text-decoration: none; } li{float: left;} li a:hover{     color: deeppink; 
+} 
+ 
+form{ width: 100px; margin-left: 20px; font-size: 15px; margin-right: 120px; top: 80%; right: 100%; } h2{ text-align: center; } form input{ width: 60%; padding: 5px; border: none; border-radius:8px ; outline: none; margin-bottom: 10px; margin-top: 10px; font-size: 15px; } .user{ top: 20%; 
+right: 20%; } 
+.loginform,.usr{ margin-left: 90px; 
+} 
+.user{ width: 40%; left: 30%; position: absolute; right: 20; 
+ 
+color: white; background-color: rgba(0,0,0,0.27); 
+} 
+.mybutton{ color: black; cursor: pointer; border-radius: 1000px; width: 35%; text-align: center; 
+} 
